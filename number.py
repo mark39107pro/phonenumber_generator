@@ -1,8 +1,8 @@
 import random
 
 f = open("eredmenyek_nyers.txt", "w")
-for i in range(99999):
-    randomlist = random.randint(9000000000,9999999999)
+for i in range(99999):  # number of outputs
+    randomlist = random.randint(9000000000,9999999999) #range of numbers
     f.write(str(randomlist) + '\n')
 f.close()
 
@@ -22,6 +22,6 @@ for xxx in ezt:
             db+=1
             f2.write(str(ezt[i]) + ',')
     i+=1
-print("Ennyi 20 és 80 közötti szám van ebben a listában:",db)
+print("Sayonara:",db)
 f.close()
 f2.close()
